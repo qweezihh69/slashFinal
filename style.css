@@ -1,0 +1,183 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #3d0066;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+#clickButton{
+    border-radius: 50%;
+    box-shadow: 0 0 20px 20px #5c0099, 0 0 10px 10px #ffd500;
+}
+
+
+
+#clickButton:focus{
+    transition: 0.3s all ease;
+    transform: scale(0.9);
+}
+
+
+.clicker-container {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 400px;
+    text-align: center;
+}
+
+header {
+    margin-bottom: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 5px;
+    color: #ffee32;
+}
+
+.subtitle {
+    font-size: 1.2em;
+    color: #fdc500;
+}
+
+.clicker {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+p {
+    font-size: 1.1em;
+    margin-top: 10px;
+}
+
+#autoClickers {
+    color: #ffee32;
+    font-style: italic;
+    margin-left: 25px;
+}
+
+head{
+    text-align: center;
+}
+
+.clicks{
+    position:absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.coins{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fdc500;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+#buyAutoClicker{
+    background-color: #c86bfa;
+    margin: 25px;
+}
+
+footer{
+    position: absolute;
+    bottom: 20px;
+    right: 50px;
+    color: #fdc500;
+}
+
+.exchange{
+
+}
+
+footer .social-media {
+    margin-top: 10px;
+}
+
+footer .social-media a {
+    margin: 0 10px;
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+}
+
+footer .social-media a:hover {
+    text-decoration: underline;
+}
+
+.inst{
+    width: 40px;
+    border-radius: 10px;
+    transition: 0.15s all linear;
+}
+
+.twit{
+    width: 40px;
+    border-radius: 10px;
+    transition: 0.15s all linear;
+}
+
+.face{
+    width: 40px;
+    border-radius: 10px;
+    transition: 0.15s all linear;
+}
+
+.inst:hover, .twit:hover, .face:hover{
+    transform: scale(1.1);
+    border-radius: 50%;
+}
+
+@media (max-width: 450px) {
+    header h1{
+        font-size: 20px;
+        padding-left: 20px;
+    }
+
+    .subtitle{
+        font-size: 15px;
+    }
+
+    .coins{
+        margin-bottom: 190px;
+    }
+
+
+
+
+
+}
